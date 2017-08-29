@@ -4,11 +4,16 @@ body{
     margin: 0;
     background-color: #f4f4f4;
 }
-//Ustawienia Globalne
+/*Ustawienia Globalne*/
 .container{
     width: 80%;
     margin:auto;
     overflow: hidden;
+    ul{
+        margin: 0;
+        padding: 0;
+    
+    }
 }
 header{
     background: #35424a;
@@ -34,3 +39,24 @@ header li{
     padding: 0 20px 0 20px;
 
 }
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin: 0;
+
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+    
+}
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+/*Showcase*/
